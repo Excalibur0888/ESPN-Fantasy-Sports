@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- People -->
+    <circle cx="32" cy="24" r="12" fill="#FF0000"/>
+    <circle cx="16" cy="32" r="8" fill="#FF0000" opacity="0.8"/>
+    <circle cx="48" cy="32" r="8" fill="#FF0000" opacity="0.8"/>
+    
+    <!-- Connection Lines -->
+    <path d="M32 36v16M16 40v12M48 40v12" stroke="#FF0000" stroke-width="2"/>
+    <path d="M16 52h32" stroke="#FF0000" stroke-width="2"/>
+    
+    <!-- Head Icons -->
+    <circle cx="32" cy="20" r="4" fill="#FFFFFF"/>
+    <circle cx="16" cy="28" r="3" fill="#FFFFFF"/>
+    <circle cx="48" cy="28" r="3" fill="#FFFFFF"/>
+</svg> 

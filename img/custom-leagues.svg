@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Trophy -->
+    <path d="M24 16h16v4c0 8-8 12-8 12s-8-4-8-12v-4z" fill="#FF0000"/>
+    <rect x="28" y="32" width="8" height="16" fill="#FF0000"/>
+    <rect x="20" y="48" width="24" height="4" fill="#FF0000"/>
+    
+    <!-- Stars -->
+    <path d="M16 12l2 4 4-2-2 4 4 2-4 2 2 4-4-2-2 4-2-4-4 2 2-4-4-2 4-2-2-4 4 2 2-4z" fill="#FF0000" opacity="0.6"/>
+    <path d="M48 12l2 4 4-2-2 4 4 2-4 2 2 4-4-2-2 4-2-4-4 2 2-4-4-2 4-2-2-4 4 2 2-4z" fill="#FF0000" opacity="0.6"/>
+</svg> 

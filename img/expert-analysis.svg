@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect x="8" y="8" width="48" height="48" rx="4" fill="#FF0000" opacity="0.1"/>
+    
+    <!-- Graph Bars -->
+    <rect x="16" y="36" width="8" height="12" fill="#FF0000"/>
+    <rect x="28" y="24" width="8" height="24" fill="#FF0000"/>
+    <rect x="40" y="16" width="8" height="32" fill="#FF0000"/>
+    
+    <!-- Trend Line -->
+    <path d="M16 40l12-12 12-8 8 4" stroke="#FF0000" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Dots -->
+    <circle cx="16" cy="40" r="3" fill="#FF0000"/>
+    <circle cx="28" cy="28" r="3" fill="#FF0000"/>
+    <circle cx="40" cy="20" r="3" fill="#FF0000"/>
+    <circle cx="48" cy="24" r="3" fill="#FF0000"/>
+</svg> 

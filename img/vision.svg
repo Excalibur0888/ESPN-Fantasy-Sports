@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Eye -->
+    <path d="M32 20c-12 0-24 12-24 12s12 12 24 12 24-12 24-12-12-12-24-12z" fill="#FF0000" opacity="0.1"/>
+    <path d="M32 20c-12 0-24 12-24 12s12 12 24 12 24-12 24-12-12-12-24-12z" stroke="#FF0000" stroke-width="2"/>
+    
+    <!-- Pupil -->
+    <circle cx="32" cy="32" r="8" fill="#FF0000"/>
+    <circle cx="36" cy="28" r="2" fill="#FFFFFF"/>
+    
+    <!-- Light Rays -->
+    <path d="M8 16l8 8M56 16l-8 8M8 48l8-8M56 48l-8-8" stroke="#FF0000" stroke-width="2"/>
+</svg> 

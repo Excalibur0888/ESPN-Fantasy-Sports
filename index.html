@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ESPN Fantasy Sports - Your Ultimate Fantasy Sports Platform">
+    <title>ESPN Fantasy Sports - Play Fantasy Sports Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="ageVerificationModal" class="modal-overlay">
+        <div class="age-verification-modal">
+            <h2>Age Verification</h2>
+            <p>You must be 18 years or older to access this site. Please confirm your age.</p>
+            <div class="modal-buttons">
+                <button class="modal-btn yes" onclick="verifyAge(true)">I am 18 or older</button>
+                <button class="modal-btn no" onclick="verifyAge(false)">I am under 18</button>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo-container">
+                    <a href="/" class="logo">
+                        <img src="img/logo.svg" alt="ESPN Fantasy Sports Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                </ul>
+                <a href="https://play.google.com/store/apps/details?id=com.espn.fantasy.lm.football&hl=ru&gl=IN" class="book-now-btn" target="_blank">Download Now</a>
+                <button class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="mobile-menu">
+                    <ul class="nav-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.espn.fantasy.lm.football&hl=ru&gl=IN" class="download-btn" target="_blank">Download Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>ESPN Fantasy Sports</h1>
+                <p class="hero-subtitle">Experience the Ultimate Fantasy Sports Platform</p>
+                <a href="https://play.google.com/store/apps/details?id=com.espn.fantasy.lm.football&hl=ru&gl=IN" target="_blank" class="read-more-btn">Download Now</a>
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <div class="container">
+                <div class="intro-content">
+                    <div class="intro-text">
+                        <p class="intro-lead">ESPN Fantasy Sports is your gateway to the thrilling world of fantasy cricket, where you can create your own team, challenge other players, and win valuable rewards! Our platform enables every cricket enthusiast to experience the thrill of being a coach, managing their roster, and testing their sports expertise.</p>
+                        <p class="intro-mission">Our goal is to provide players with a unique chance to immerse themselves in cricket, using their knowledge and strategies to form winning teams. We strive to unite the cricket fan community, allowing everyone to enjoy the game, hone their skills, and compete for the highest honors in fantasy sports. Join the top run and embark on this exciting adventure!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <span class="section-subtitle">Who are we?</span>
+                        <h2>About us</h2>
+                        <p class="about-description">ESPN Fantasy Sports offers reliable and engaging fantasy sports gaming experiences across multiple sports leagues. We create convenient solutions for your fantasy sports journey - be it football, basketball, baseball, or any other major sport. With us, you will always find the perfect league and game format for you.</p>
+                        <p class="about-mission">At ESPN Fantasy Sports, we strive to make every game exciting, competitive, and fair. Our goal is to provide our users with cutting-edge fantasy sports features, as well as expert analysis and insights, so that you can make the best decisions for your team. We believe that every match is an opportunity for victory, and we are ready to become your trusted platform for fantasy sports success.</p>
+                        <a href="about.html" class="read-more-btn">Read more</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/fantasy-sports-dashboard.jpg" alt="ESPN Fantasy Sports Dashboard">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-services">
+            <div class="container">
+                <span class="section-subtitle">What do we offer?</span>
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card league-management">
+                        <h3>League Management</h3>
+                        <p>Create your own fantasy leagues with customizable settings</p>
+                    </div>
+                    <div class="service-card live-scoring">
+                        <h3>Live Scoring</h3>
+                        <p>Real-time updates and comprehensive statistics tracking</p>
+                    </div>
+                    <div class="service-card premium-features">
+                        <h3>Premium Features</h3>
+                        <p>Advanced tools and exclusive content for serious players</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-features">
+            <div class="container">
+                <div class="features-header">
+                    <h2>Game Categories</h2>
+                    <p>At ESPN Fantasy Sports, we offer various exciting cricket formats to suit every fan's preference. Whether you're into international matches, domestic leagues, or special tournaments, we've got you covered.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <img src="img/t20.jpg" alt="T20 Cricket">
+                        <div class="feature-content">
+                            <h3>T20 Cricket</h3>
+                            <span class="price">FREE</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <img src="img/odi.jpg" alt="ODI Cricket">
+                        <div class="feature-content">
+                            <h3>ODI Cricket</h3>
+                            <span class="price">FREE</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <img src="img/test.jpg" alt="Test Cricket">
+                        <div class="feature-content">
+                            <h3>Test Cricket</h3>
+                            <span class="price">FREE</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <img src="img/ipl.jpg" alt="IPL Fantasy">
+                        <div class="feature-content">
+                            <h3>IPL Fantasy</h3>
+                            <span class="price">FREE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="container">
+                <span class="section-subtitle">Why our platform is your best choice?</span>
+                <h2>Advantages of our platform</h2>
+                <div class="advantages-list">
+                    <div class="advantage-item">
+                        <span class="check-icon">✓</span>
+                        <div class="advantage-content">
+                            <h3>Expert Analysis:</h3>
+                            <p>Access to ESPN's industry-leading sports analysts and exclusive insights.</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check-icon">✓</span>
+                        <div class="advantage-content">
+                            <h3>Real-time Updates:</h3>
+                            <p>Live scoring and instant updates for all your fantasy teams and players.</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check-icon">✓</span>
+                        <div class="advantage-content">
+                            <h3>Multiple Formats:</h3>
+                            <p>Choose from various game types including season-long, daily fantasy, and playoff challenges.</p>
+                        </div>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="check-icon">✓</span>
+                        <div class="advantage-content">
+                            <h3>Community Features:</h3>
+                            <p>Engage with millions of fantasy sports players and share your expertise.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <h2>Why Choose ESPN Fantasy Sports?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <img src="img/multiple-sports.svg" alt="Cricket Icon">
+                        <h3>Fantasy Cricket</h3>
+                        <p>Create your dream cricket team and compete in exciting fantasy leagues</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="img/live-scoring.svg" alt="Live Scoring Icon">
+                        <h3>Live Scoring</h3>
+                        <p>Real-time updates and scoring for all your fantasy teams</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="img/expert-analysis.svg" alt="Expert Analysis Icon">
+                        <h3>Expert Analysis</h3>
+                        <p>Get insights from ESPN's top fantasy sports analysts</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="img/custom-leagues.svg" alt="Custom Leagues Icon">
+                        <h3>Custom Leagues</h3>
+                        <p>Create and join private leagues with your friends</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+				<section class="skill-based-section">
+					<div class="container">
+							<div class="skill-based-content">
+									<h2>Skill-Based Fantasy Sports</h2>
+									<p>Our fantasy sports games are based entirely on skill and knowledge, not chance. Success in our games depends on your expertise, research, and strategic decision-making abilities.</p>
+									<div class="skill-features">
+											<div class="skill-feature">
+													<h3>Strategic Planning</h3>
+													<p>Success comes from careful player analysis, team composition, and long-term strategy development.</p>
+											</div>
+											<div class="skill-feature">
+													<h3>Sports Knowledge</h3>
+													<p>Your understanding of sports, players, and game dynamics directly impacts your performance.</p>
+											</div>
+											<div class="skill-feature">
+													<h3>Data-Driven Decisions</h3>
+													<p>Use statistics, historical performance, and analytical tools to make informed choices.</p>
+											</div>
+									</div>
+							</div>
+					</div>
+			</section>
+
+        <section class="customer-service">
+            <div class="container">
+                <h2>24/7 Customer Service</h2>
+                <div class="service-intro">
+                    <p>Each player appreciates not only the quality of our platform but also the confidence that they can get help or answers to their questions at any time. That is why our customer service works around the clock - 24/7.</p>
+                </div>
+                <div class="service-features">
+                    <div class="service-feature">
+                        <h3>Availability at any time</h3>
+                        <p>We are always in touch, no matter the time of day. You can contact us at night, early in the morning or even on holidays — we are always ready to help you.</p>
+                    </div>
+                    <div class="service-feature">
+                        <h3>Instant response</h3>
+                        <p>Our team responds promptly to your requests. We understand that every minute counts in fantasy sports, and we do everything possible so that you do not have to wait.</p>
+                    </div>
+                    <div class="service-feature">
+                        <h3>Professional assistance</h3>
+                        <p>Our specialists undergo thorough training and are ready to help you with any issue, from choosing game formats to solving technical problems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="help-section">
+            <div class="container">
+                <div class="help-content">
+                    <div class="help-text">
+                        <h2>How can we help?</h2>
+                        <div class="help-items">
+                            <div class="help-item">
+                                <h3>Game Selection Advice</h3>
+                                <p>Not sure which format to choose? Need information on rules or scoring systems? Just contact us and we will suggest the best option.</p>
+                            </div>
+                            <div class="help-item">
+                                <h3>Technical Support</h3>
+                                <p>If you encounter any technical issues or need help with the platform features, we will provide prompt assistance to resolve your concerns.</p>
+                            </div>
+                            <div class="help-item">
+                                <h3>Account Management</h3>
+                                <p>Need help with registration, team management, or account settings? We will explain each step and help you get started.</p>
+                            </div>
+                            <div class="help-item">
+                                <h3>Special Situations</h3>
+                                <p>Match cancelled? Unable to make changes before deadline? We will offer flexible solutions so that your gaming experience is not affected.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/help.jpg" alt="Help Image" class="help-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="container">
+                <h2>Our partners are your confidence</h2>
+                <div class="partners-grid">
+                    <div class="partner-item">
+                        <h3>Cricket Boards</h3>
+                        <p>We work with leading cricket boards such as BCCI, ICC, ECB, and many others. Thanks to this, our platform always has official data and reliable statistics.</p>
+                    </div>
+                    <div class="partner-item">
+                        <h3>Corporate clients</h3>
+                        <p>We successfully cooperate with large companies and organizations, providing fantasy cricket services for corporate events, tournaments and long-term projects.</p>
+                    </div>
+                    <div class="partner-item">
+                        <h3>Tournament organizers</h3>
+                        <p>Our partners from the cricket industry help us offer unique tournaments, special competitions and exclusive prizes for players.</p>
+                    </div>
+                    <div class="partner-item">
+                        <h3>Payment and security providers</h3>
+                        <p>Thanks to partnerships with leading payment providers, we ensure secure transactions and comprehensive protection for our users.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <h3>20M+</h3>
+                        <p>Active Users</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>10+</h3>
+                        <p>Sports Categories</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>24/7</h3>
+                        <p>Support Available</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>4.8★</h3>
+                        <p>App Rating</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="additional-benefits">
+            <div class="container">
+                <div class="benefits-content">
+                    <div class="benefits-text">
+                        <h2>Additional benefits</h2>
+                        <div class="benefits-list">
+                            <div class="benefit-item">
+                                <h3>User-Friendly Interface</h3>
+                                <p>Our platform is designed to be intuitive and easy to use. We ensure every feature is clearly explained so you can focus on enjoying the game.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <h3>Instant Game Access</h3>
+                                <p>Our website and mobile application allow you to join games instantly, select your favorite sports, and track your performance in real-time.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <h3>Multiple Game Formats</h3>
+                                <p>We offer various game types and formats to suit your preferences: daily contests, season-long leagues, and special tournaments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits-image">
+                        <img src="img/benefits.jpg" alt="Additional Benefits">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="price-transparency">
+            <div class="container">
+                <h2>How do we ensure price transparency?</h2>
+                <div class="transparency-grid">
+                    <div class="transparency-item">
+                        <h3>Clear Game Rules</h3>
+                        <p>Our game rules include all the main parameters: scoring system, roster requirements, and standard gameplay mechanics.</p>
+                        <p>You know exactly how the game works before joining any contest.</p>
+                    </div>
+                    <div class="transparency-item">
+                        <h3>No Hidden Requirements</h3>
+                        <p>We do not have additional requirements for standard gameplay features.</p>
+                        <p>All special features (e.g. custom scoring, private leagues, advanced stats) are clearly explained upfront with complete transparency.</p>
+                    </div>
+                    <div class="transparency-item">
+                        <h3>Fixed Scoring System</h3>
+                        <p>All scoring rules are fixed when the contest begins. You can be sure the rules won't change mid-game.</p>
+                        <p>Even for season-long leagues or playoff formats, any rule changes require advance notice and league approval.</p>
+                    </div>
+                    <div class="transparency-item">
+                        <h3>Full Control of Gameplay</h3>
+                        <p>We have no hidden penalties for lineup changes or roster moves - all these details are clearly explained in the game rules.</p>
+                        <p>We provide clear and transparent stats tracking with full details of all scoring and gameplay mechanics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="download-section">
+            <div class="container">
+                <h2>Ready to Play?</h2>
+                <p>Download our app and start your fantasy sports journey today!</p>
+                <a href="https://play.google.com/store/apps/details?id=com.espn.fantasy.lm.football&hl=ru&gl=IN" target="_blank">
+                    <img src="img/googleplay.svg" alt="Get it on Google Play" height="60">
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="dark-footer">
+        <div class="container">
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Indor Abdurahman</p>
+                    <p>Email: <a href="mailto:espnmobilefeedback@espncustomercare.com">espnmobilefeedback@<br/>espncustomercare.com</a></p>
+                    <p>Location: India</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Address</h4>
+                    <p><a href="https://maps.app.goo.gl/TzB2g8VqT4vnKai3A" target="_blank" class="footer-address">
+                        133, North Ave, North Avenue Road Area, Raisina Hills, New Delhi, Delhi 110001, India
+                    </a></p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="contact.html" aria-label="Facebook">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 011-1h3v-4h-3a5 5 0 00-5 5v2.01h-2l-.396 3.98h2.396v8.01z"/>
+                            </svg>
+                        </a>
+                        <a href="contact.html" aria-label="Twitter">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="contact.html" aria-label="Instagram">
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.5 6.5h-11a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-11a2 2 0 00-2-2zm-5.5 11a4.5 4.5 0 110-9 4.5 4.5 0 010 9zm5.5-8a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ESPN Fantasy Sports - All Rights Reserved</p>
+                <a href="/privacy-policy" class="privacy-link">Privacy Policy</a>
+                <a href="/cookie-policy" class="privacy-link">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function checkAgeVerification() {
+            const verified = localStorage.getItem('ageVerified');
+            if (verified === 'true') {
+                document.getElementById('ageVerificationModal').style.display = 'none';
+            }
+        }
+
+        function verifyAge(isAdult) {
+            if (isAdult) {
+                localStorage.setItem('ageVerified', 'true');
+                document.getElementById('ageVerificationModal').style.display = 'none';
+            } else {
+                window.location.href = 'https://www.google.com';
+            }
+        }
+
+        // Check age verification on page load
+        document.addEventListener('DOMContentLoaded', checkAgeVerification);
+    </script>
+</body>
+</html> 

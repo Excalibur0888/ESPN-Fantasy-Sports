@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Medal -->
+    <circle cx="32" cy="40" r="20" fill="#FF0000" opacity="0.1" stroke="#FF0000" stroke-width="2"/>
+    <circle cx="32" cy="40" r="12" fill="#FF0000"/>
+    <path d="M26 34l6 6 6-6" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Ribbon -->
+    <path d="M20 40V16l12-8 12 8v24" stroke="#FF0000" stroke-width="2"/>
+    <path d="M32 8v12M26 16l6-4 6 4" stroke="#FF0000" stroke-width="2"/>
+</svg> 
