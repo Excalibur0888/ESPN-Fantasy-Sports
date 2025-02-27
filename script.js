@@ -134,3 +134,22 @@ document.addEventListener('DOMContentLoaded', function() {
         accordionObserver.observe(item);
     });
 }); 
+
+function checkAgeVerification() {
+	const verified = localStorage.getItem('ageVerified');
+	if (verified === 'true') {
+			document.getElementById('ageVerificationModal').style.display = 'none';
+	}
+}
+
+function verifyAge(isAdult) {
+	if (isAdult) {
+			localStorage.setItem('ageVerified', 'true');
+			document.getElementById('ageVerificationModal').style.display = 'none';
+	} else {
+			window.location.href = 'https://www.google.com';
+	}
+}
+
+// Check age verification on page load
+document.addEventListener('DOMContentLoaded', checkAgeVerification);

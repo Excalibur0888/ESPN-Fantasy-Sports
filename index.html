@@ -112,39 +112,39 @@
             </div>
         </section>
 
-        <section class="our-features">
+        <section class="game-categories">
             <div class="container">
-                <div class="features-header">
+                <div class="game-categories-header">
                     <h2>Game Categories</h2>
                     <p>At ESPN Fantasy Sports, we offer various exciting cricket formats to suit every fan's preference. Whether you're into international matches, domestic leagues, or special tournaments, we've got you covered.</p>
                 </div>
-                <div class="features-grid">
-                    <div class="feature-card">
+                <div class="game-categories-grid">
+                    <div class="game-category-card">
                         <img src="img/t20.jpg" alt="T20 Cricket">
-                        <div class="feature-content">
+                        <div class="game-category-content">
                             <h3>T20 Cricket</h3>
-                            <span class="price">FREE</span>
+                            <span class="category-price">FREE</span>
                         </div>
                     </div>
-                    <div class="feature-card">
+                    <div class="game-category-card">
                         <img src="img/odi.jpg" alt="ODI Cricket">
-                        <div class="feature-content">
+                        <div class="game-category-content">
                             <h3>ODI Cricket</h3>
-                            <span class="price">FREE</span>
+                            <span class="category-price">FREE</span>
                         </div>
                     </div>
-                    <div class="feature-card">
+                    <div class="game-category-card">
                         <img src="img/test.jpg" alt="Test Cricket">
-                        <div class="feature-content">
+                        <div class="game-category-content">
                             <h3>Test Cricket</h3>
-                            <span class="price">FREE</span>
+                            <span class="category-price">FREE</span>
                         </div>
                     </div>
-                    <div class="feature-card">
+                    <div class="game-category-card">
                         <img src="img/ipl.jpg" alt="IPL Fantasy">
-                        <div class="feature-content">
+                        <div class="game-category-content">
                             <h3>IPL Fantasy</h3>
-                            <span class="price">FREE</span>
+                            <span class="category-price">FREE</span>
                         </div>
                     </div>
                 </div>
@@ -416,8 +416,8 @@
                 </div>
                 <div class="footer-section">
                     <h4>Address</h4>
-                    <p><a href="https://maps.app.goo.gl/TzB2g8VqT4vnKai3A" target="_blank" class="footer-address">
-                        133, North Ave, North Avenue Road Area, Raisina Hills, New Delhi, Delhi 110001, India
+                    <p><a href="https://maps.app.goo.gl/MG9dGptBU5xT5aTD6" target="_blank" class="footer-address">
+                        134, North Avenue Road Area, President's Estate, New Delhi, Delhi 110004, India
                     </a></p>
                 </div>
                 <div class="footer-links">
@@ -451,32 +451,12 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; ESPN Fantasy Sports - All Rights Reserved</p>
-                <a href="/privacy-policy" class="privacy-link">Privacy Policy</a>
-                <a href="/cookie-policy" class="privacy-link">Cookie Policy</a>
+                <a href="privacy-policy.html" class="privacy-link">Privacy Policy</a>
+                <a href="cookie-policy.html" class="privacy-link">Cookie Policy</a>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        function checkAgeVerification() {
-            const verified = localStorage.getItem('ageVerified');
-            if (verified === 'true') {
-                document.getElementById('ageVerificationModal').style.display = 'none';
-            }
-        }
-
-        function verifyAge(isAdult) {
-            if (isAdult) {
-                localStorage.setItem('ageVerified', 'true');
-                document.getElementById('ageVerificationModal').style.display = 'none';
-            } else {
-                window.location.href = 'https://www.google.com';
-            }
-        }
-
-        // Check age verification on page load
-        document.addEventListener('DOMContentLoaded', checkAgeVerification);
-    </script>
 </body>
 </html> 
